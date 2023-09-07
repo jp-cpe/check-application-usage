@@ -1,5 +1,5 @@
 # check-application-usage
-Query the Jamf API for application usage data of specific apps in a certain date range.
+Query the Jamf API for application usage of specific apps within a date range.
 
 ## Purpose
 This Python script is designed to interact with the Jamf Pro API to analyze application usage data for a specific application over a specified date range. It retrieves the list of machines with the application installed and provides usage statistics, including foreground time and the number of times the application was opened.
