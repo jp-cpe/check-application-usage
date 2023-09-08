@@ -117,6 +117,6 @@ Replace {yourJamfURL} in the links below with your actual Jamf Pro URL to test t
 		  "accessTokenLifetimeSeconds": "<integer>"
 		}
 		
-3. Create client credentials for the API Integration via a POST to "/v1/api-integrations/1/client-credentials" (https://{yourJamfURL}.com/api/doc/#/api-integrations/postCreateClientCredentials)
+3. Create client credentials for the API Integration via a POST to "/v1/api-integrations/{id}/client-credentials" (https://{yourJamfURL}.com/api/doc/#/api-integrations/postCreateClientCredentials)
 
 
